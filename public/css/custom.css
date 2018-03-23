@@ -1,0 +1,178 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Inconsolata', monospace;
+}
+
+form {
+    width: 70%;
+    height: 70%;
+    padding: 4%;
+}
+
+button:focus {
+    outline: 0;
+}
+
+p {
+    color: #1340fb;
+    line-height: 1.6;
+}
+
+
+input[type="text"] {
+    font-size:2inconsolataem;
+    color: #1340fb;
+}
+
+span{
+    color: #FF0080;
+    font-weight: 700;
+}
+
+.dipHeader{
+    margin: 0 0 2vh 0;
+    color: #fff;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+
+}
+
+.ponty{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin-top: 2vh;
+}
+
+.gradBG {
+    background: #40E0D0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FF0080, #FF8C00, #40E0D0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FF0080, #FF8C00, #40E0D0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.myFlexCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    background: #fff;
+    height: 82vh;
+    width: 88vw;
+}
+
+.sidebar {
+    display: flex;
+    width: 12vw;
+    max-height: 100%;
+    padding: 4vw 4vh;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.fullWidthDiv {
+    width: 100%;
+    height: 16%;
+
+}
+
+.flexDivLeft {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flexDivRight {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flexDivUp {
+    display: flex;
+}
+
+.flexDivDown {
+    display: flex;
+    align-items: flex-end;
+    height: 20vh;
+}
+
+.linkButton {
+    background: none !important;
+    border: none !important;
+    font-size: 2em;
+}
+
+.linkButton:hover {
+    background: red !important;
+    color: #fff;
+    border: none !important;
+    font-size: 2em;
+}
+
+
+.rectangular {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 200px;
+    height: 80px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #FF0080;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.trapezoid {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 100px;
+    height: 0;
+    padding: -3px;
+    border: 50px solid rgba(0, 0, 0, 0);
+    border-top: 0 solid;
+    /*line below to color the shape*/
+    border-bottom: 100px solid #40E0D0;
+    color: rgba(0, 0, 0, 0);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    transition: border-bottom 0.5s ease-out;
+}
+
+.trapezoid:hover{
+    border-bottom: 100px solid #2319f6;
+}
+
+.oval {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 200px;
+    height: 100px;
+    border: none;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #FF8C00;
+    transition: background-color 0.5s ease-out;
+}
+
+.oval:hover {
+    background: #c600ff;
+}

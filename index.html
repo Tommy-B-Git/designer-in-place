@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Designer In Place</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+</head>
+
+<body>
+    <div class="gradBG">
+        
+            <h2 class="dipHeader">The Designer in Place: Experience Based Design Research</h2>
+        
+        <div class="myFlexCont">
+            <form action="/DesignerInPlace" method="POST" class="pure-form pure-form-stacked">
+                <div class="fullWidthDiv">
+                    <h2><button id="myButton" type="submit" class="linkButton" name="likeLinkBtn">SUBMIT</button> the form...</h2>
+                </div>
+                <div class="fullWidthDiv flexDivRight">
+                    <button type="submit" class="oval myButton" name="ovalBtn">X</button>
+                </div>
+                <div class="fullWidthDiv flexDivLeft">
+                    <input type="text" name="course" class="pure-u-3-4">
+                </div>
+                <div class="fullWidthDiv flexDivRight">
+                    <input type="text" name="name" class="pure-input-1-4">
+                </div>
+                <div class="fullWidthDiv">
+                    <button type="submit" class="trapezoid myButton" name="trapezoidBtn">X</button>
+                </div>
+                <div class="fullWidthDiv flexDivRight flexDivDown">
+                    <button type="submit" class="rectangular myButton" name="rectangularBtn">X</button>
+                </div>
+            </form>
+            <div class="sidebar">
+                <img src="images/ponty-col.jpg" alt="merleau-ponty" class="ponty">
+                <!-- <div class="ponty">&nbsp;</div> -->
+                <p>Hello :)
+                    <br>This application is intended to be used on medium to large screens. It is not developed for phones or smaller screens. The experiment is designed to gain insight on how we respond to a tool most of us encounter every day - the humble webform.
+                    <br><span>Complete the form by typing your name and your course in the appropriate field. Complete the experiment by submitting the form.
+                    </span> Regards, Tom. </p>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/client.js" type="text/javascript"></script>
+
+</html>
