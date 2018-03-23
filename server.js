@@ -13,8 +13,8 @@ MongoClient.connect('mongodb://orbital676:lemonbook676@ds119049.mlab.com:19049/d
     if (err) return console.log(err);
     db = client.db('designer-in-place');
     //...start the server
-    app.listen(3000, () => {
-        console.log('Listening on Port 3000');
+    app.listen(process.env.PORT || 3000, () => {
+        console.log('listening on 3000')
     })
 })
 
@@ -41,6 +41,6 @@ app.post('/DesignerInPlace', (req, res) => {
         if (err) return console.log(err);
 
         console.log('Saved to MongoDB!');
-        res.sendFile(__dirname +'/thanks.html');
+        res.sendFile(__dirname + '/thanks.html');
     })
 })
