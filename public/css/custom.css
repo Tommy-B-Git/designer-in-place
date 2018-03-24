@@ -31,6 +31,7 @@ span{
     color: #FF0080;
     font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .dipHeader{
