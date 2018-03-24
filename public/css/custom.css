@@ -16,7 +16,9 @@ button:focus {
 
 p {
     color: #1340fb;
-    line-height: 1.6;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 0.9em;
 }
 
 
@@ -28,6 +30,7 @@ input[type="text"] {
 span{
     color: #FF0080;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .dipHeader{
