@@ -137,6 +137,11 @@ span {
     background: #FF0080;
     font-size: 2em;
     text-decoration: underline;
+    transition: background-color 0.5s ease-out;
+}
+
+.rectangular:hover{
+    background: #ac2267;
 }
 
 .trapezoid {
@@ -174,6 +179,7 @@ span {
     text-overflow: clip;
     background: #FF8C00;
     transition: background-color 0.5s ease-out;
+    
 }
 
 .oval:hover {
